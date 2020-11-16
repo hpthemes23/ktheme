@@ -1,0 +1,1008 @@
+/*
+Theme Name:     KTHEME
+Version:        1.0
+Description:    Custom CSS
+*/
+/* 
+	All custom ids and classes used for the theme, starts with "ktheme".
+	For demo 1 to demo 6, it uses "ktheme".
+	For demo 2, it uses "kthemeD2". 
+	For demo 6, it uses "kthemeD6".
+	For index page, it uses "kthemeIndex".
+	For documentation page, it uses "kthemeDoc".
+*/
+/* TABLE OF CONTENTS
+	1. body
+		1.1 for demo 1 to demo 6
+			1.1.1 #ktheme-body
+	2. headlines
+		2.1 for demo 1 to demo 6
+			2.1.1  h1, h2, h3, h4, h5, h6
+	3. header
+		3.1 for demo 1 to demo 6
+			3.1.1 .ktheme-header-1
+			3.1.2 .ktheme-header-2
+	4. about
+		4.1 for demo 1 to demo 6
+			4.1.1 .ktheme-about-1
+	5. services
+		5.1 for demo 1 to demo 6
+			5.1.1 .ktheme-service-1
+			5.1.2 .ktheme-service-2
+			5.1.3 .ktheme-service-3
+			5.1.4 .ktheme-service-4
+	6. team
+		6.1 for demo 1 to demo 6
+			6.1.1 .ktheme-team-1
+			6.1.2 .ktheme-team-2
+			6.1.3 .ktheme-team-3
+			6.1.4 .ktheme-team-4
+	7. work
+		7.1 for demo 1 to demo 6
+			7.1.1 .ktheme-work-1
+			7.1.2 .ktheme-work-2
+			7.1.3 .ktheme-work-3
+			7.1.4 .ktheme-work-4
+	8. pricing
+		8.1 for demo 1 to demo 6
+			8.1.1 .ktheme-pricing-1
+			8.1.2 .ktheme-pricing-2
+			8.1.3 .ktheme-pricing-3
+			8.1.4 .ktheme-pricing-4
+	9. reviews
+		9.1 for demo 1 to demo 6
+			9.1.1 .ktheme-review-1
+			9.1.2 .ktheme-review-2
+			9.1.3 .ktheme-review-3
+			9.1.4 .ktheme-review-4
+	10. contact
+		10.1 for demo 1 to demo 6
+			10.1.1 .ktheme-contact-1
+			10.1.2 .ktheme-contact-2
+			10.1.3 .ktheme-contact-3
+			10.1.4 .ktheme-contact-4
+			10.1.5 .ktheme-contact-5
+	11. footer
+		11.1 for demo 1 to demo 6
+			11.1.1 #ktheme-footer
+		11.2 for index
+			11.2.1 #kthemeIndex-footer
+		11.3 for documentation
+			11.3.1 #kthemeDoc-footer
+	12. height of all elements
+		12.1 *
+	13. card-columns
+		13.1 for demo 1 to demo 6
+			13.1.1 .ktheme-card-columns
+	14. input
+		14.1 for demo 1 to demo 6
+			14.1.1 .ktheme-field input
+	15. textarea
+		15.1 for demo 1 to demo 6
+			15.1.1 .ktheme-field textarea
+	16. navigation
+		16.1 for demo 1 to demo 6
+			16.1.1 #ktheme-navbar
+			16.1.2 .ktheme-navbar.solid
+			16.1.3 .ktheme-nav-link
+		16.2 for index
+			16.2.1 .kthemeDoc-nav-link
+		16.3 for documentation
+			16.3.1 #kthemeDoc-navbar
+			16.3.2 .kthemeDoc-nav-pills
+			16.3.3 .kthemeDoc-nav-link
+	17. button
+		17.1 for demo 1 to demo 6
+			17.1.1 .ktheme-button-1
+			17.1.2 .ktheme-button-2
+			17.1.3 .ktheme-button-3
+			17.1.4 .ktheme-button-4
+			17.1.5 .ktheme-button-5
+			17.1.6 .ktheme-button-6
+	18. videos
+		18.1 for demo 6
+			18.1.1 .kthemeD6-video-1
+			18.1.2 .kthemeD6-video-2
+	19. index
+		19.1 for index
+			19.1.1 .kthemeIndex-1
+			19.1.2 .kthemeIndex-2
+			19.1.3 .kthemeIndex-3
+			19.1.4 .kthemeIndex-4
+	20. documentation
+		20.1 for documentation
+			20.1.1 .kthemeDoc-color-1
+			20.1.2 .kthemeDoc-color-2
+			20.1.3 .kthemeDoc-scroll
+END OF TABLE OF CONTENTS */
+/* CUSTOM CSS */
+/* BODY */
+#ktheme-body{
+	background-color: #FBFBFF;
+	color: #04151F;
+	height: 100vh;
+	font-family: 'Comfortaa', cursive;
+}
+/* END OF BODY */
+/* HEADLINES */
+#ktheme-body h1, h2, h3, h4, h5, h6{
+	font-family: 'Wendy One', sans-serif;
+	line-height: normal;
+}
+#ktheme-body h2 span{
+	display: block;
+}
+/* END OF HEADLINES */
+/* HEADER */
+.ktheme-header-1{
+	color: #C20114;
+}
+.ktheme-header-2{
+	padding: 0;
+}
+/* END OF HEADER */
+/* ABOUT */
+.ktheme-about-1{
+	padding: 0;
+}
+/* END OF ABOUT */
+/* SERVICES */
+.ktheme-service-1{
+	height: auto;
+	color: #04151F;
+    background-image: url("../images/service-4.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+.ktheme-service-2{
+	height: auto;
+	color: #04151F;
+    background-image: url("../images/service-5.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+.ktheme-service-3{
+	height: auto;
+	color: #04151F;
+    background-image: url("../images/service-6.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+/* END OF SERVICES */
+/* TEAM */
+.ktheme-team-1{
+	padding: 0;
+}
+.ktheme-team-2{
+	border: 0;
+}
+.ktheme-team-3{
+	object-fit: cover;
+}
+.ktheme-team-4{
+	color: #04151F;
+}
+.ktheme-team-4:hover{
+	color: #580C1F;
+}
+/* END OF TEAM */
+/* WORK */
+.ktheme-work-1{
+	border: 0;
+}
+.ktheme-work-2{
+	position: relative;
+}
+.ktheme-work-2:hover .ktheme-work-3{
+    opacity: 1;
+}
+.ktheme-work-3{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: 1s ease;
+	background: rgba(4, 21, 31, 0.9);
+	border-radius: 50%;
+}
+.ktheme-work-4{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+/* END OF WORK */
+/* PRICING */
+.ktheme-pricing-1{
+	background-color: #22031F;
+	color: #FBFBFF;
+	border-radius: 40px;
+	border: 0;
+}
+.ktheme-pricing-2{
+	background-color: #0E103D;
+	color: #FBFBFF;
+	border-radius: 40px;
+	border: 0;
+}
+.ktheme-pricing-3{
+	background-color: #2E1F27;
+	color: #FBFBFF;
+	border-radius: 40px;
+	border: 0;
+}
+/* END OF PRICING */
+/* REVIEWS */
+.ktheme-review-1{
+	object-fit: cover;
+}
+.ktheme-review-2{
+	font-style: italic;
+}
+.ktheme-review-3{
+	color: #04151F;
+}
+.ktheme-review-4{
+	padding: 0;
+}
+/* END OF REVIEWS */
+/* CONTACT */
+.ktheme-contact-1{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.ktheme-contact-4{
+	color: #172A3A;
+}
+.ktheme-contact-4:hover{
+	color: #004346;
+}
+.ktheme-contact-5{
+	padding: 0;
+}
+/* END OF CONTACT */
+/* FOOTER */
+#ktheme-footer{
+	color: #FBFBFF;
+    background-image: url("../images/footer.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+/* END OF FOOTER */
+/* INDEX FOOTER */
+#kthemeIndex-footer{
+	background-color: #04151F;
+	color: #FBFBFF;
+}
+/* END OF INDEX FOOTER */
+/* DOCUMENTATION FOOTER */
+#kthemeDoc-footer{
+	background-color: #04151F;
+	color: #FBFBFF;
+}
+/* END OF DOCUMENTATION FOOTER */
+/* HEIGHT OF ALL ELEMENTS */
+*{
+    min-height: 0.01px;
+}
+/* END OF HEIGHT OF ALL ELEMENTS */
+/* CARD COLUMNS */
+.ktheme-card-columns-1 .card, .ktheme-card-columns-2 .card{
+	background-color: transparent;
+}
+/* END OF CARD COLUMNS */
+/* INPUT */
+.ktheme-field input{
+	border: 0;
+	border-radius: 40px;
+	padding: 20px;
+	background-color: rgba(4, 21, 31, 0.05);
+}
+/* END OF INPUT */
+/* TEXTAREA */
+.ktheme-field textarea{
+	border: 0;
+	border-radius: 40px;
+	padding: 20px;
+	background-color: rgba(4, 21, 31, 0.05);
+}
+/* END OF TEXTAREA */
+/* NAVIGATION */
+#ktheme-navbar{
+	background-color: transparent;
+	color: #04151F;
+	font-family: 'Quicksand', sans-serif;
+}
+#ktheme-navbar.solid{
+	background-color: #FBFBFF;
+	color: #04151F;
+	transition-delay: 0.6s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#ktheme-navbar .ktheme-nav-link{
+	color: #04151F;
+}
+#ktheme-navbar .ktheme-nav-link:hover{
+	font-size: 110%;
+}
+#ktheme-navbar .navbar-brand{
+	color: #04151F;
+}
+/* END OF NAVIGATION */
+/* INDEX NAVIGATION */
+.kthemeIndex-nav-link{
+	font-family: 'Wendy One', sans-serif;
+	color: #04151F;
+}
+.kthemeIndex-nav-link:hover{
+	font-size: 110%;
+}
+/* END OF INDEX NAVIGATION */
+/* DOCUMENTATION NAVIGATION */
+#kthemeDoc-navbar{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+#kthemeDoc-nav-pills{
+	background-color: #FBFBFF;
+	color: #04151F;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#kthemeDoc-nav-pills .kthemeDoc-nav-link{
+	background-color: #FBFBFF;
+	color: #04151F;
+}
+#kthemeDoc-nav-pills .kthemeDoc-nav-link:hover{
+	font-size: 110%;
+}
+#kthemeDoc-nav-pills .kthemeDoc-nav-link.active,#kthemeDoc-nav-pills .show>.kthemeDoc-nav-link{
+	background-color: #04151F;
+	color: #FBFBFF;
+	border-radius: 0;
+}
+/* END OF DOCUMENTATION NAVIGATION */
+/* BUTTON */
+.ktheme-button-1{
+	background-color: #030301;
+	color: #FBFBFF;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right-width: 30px;
+	border-right-style: solid;
+	border-right-color: #FF4365;
+}
+.ktheme-button-1:hover{
+	background-color: #030301;
+	color: #FBFBFF;
+	border-right: 0;
+	border-left-width: 30px;
+	border-left-style: solid;
+	border-left-color: #FF4365;
+}
+.ktheme-button-2{
+	background-color: #030301;
+	color: #FBFBFF;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+	border-left-width: 30px;
+	border-left-style: solid;
+	border-left-color: #C2E812;
+}
+.ktheme-button-2:hover{
+	background-color: #030301;
+	color: #FBFBFF;
+	border-left: 0;
+	border-right-width: 30px;
+	border-right-style: solid;
+	border-right-color: #C2E812;
+}
+.ktheme-button-3{
+	background-color: #FBFBFF;
+	color: #04151F;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+	border-left-width: 30px;
+	border-left-style: solid;
+	border-left-color: #F9DC5C;
+}
+.ktheme-button-3:hover{
+	border-left: 0;
+	border-right-width: 30px;
+	border-right-style: solid;
+	border-right-color: #F9DC5C;
+}
+.ktheme-button-4{
+	background-color: #FBFBFF;
+	color: #04151F;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+	border-left-width: 30px;
+	border-left-style: solid;
+	border-left-color: #3185FC;
+}
+.ktheme-button-4:hover{
+	border-left: 0;
+	border-right-width: 30px;
+	border-right-style: solid;
+	border-right-color: #3185FC;
+}
+.ktheme-button-5{
+	background-color: #FBFBFF;
+	color: #04151F;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 0;
+	border-left-width: 30px;
+	border-left-style: solid;
+	border-left-color: #E84855;
+}
+.ktheme-button-5:hover{
+	border-left: 0;
+	border-right-width: 30px;
+	border-right-style: solid;
+	border-right-color: #E84855;
+}
+.ktheme-button-6{
+	background-color: #030301;
+	color: #FBFBFF;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right-width: 30px;
+	border-right-style: solid;
+	border-right-color: #048A81;
+}
+.ktheme-button-6:hover{
+	background-color: #030301;
+	color: #FBFBFF;
+	border-right: 0;
+	border-left-width: 30px;
+	border-left-style: solid;
+	border-left-color: #048A81;
+}
+/* END OF BUTTON */
+/* MEDIA */
+@media (max-width: 575px){
+	#ktheme-body{
+		font-size: 15px;
+	}
+    .ktheme-padding{
+    	padding-top: 90px;
+    	padding-bottom: 90px;
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    #ktheme-body h2{
+		font-size: 40px;
+	}
+	#ktheme-body h4{
+		font-size: 24px;
+	}
+	#ktheme-body h5{
+		font-size: 21px;
+	}
+	#ktheme-body h6{
+		font-size: 18px;
+	}
+	.ktheme-service-4{
+		width: 100vw;
+		height: 20vh;
+	}
+	#team .ktheme-team-3{
+		width: 100%;
+		height: auto;
+	}
+	.ktheme-pricing-4{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	#reviews .ktheme-review-1{
+		width: 35%;
+		height: 35%;
+	}
+	.ktheme-contact-2{
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    .ktheme-contact-3{
+    	padding-top: 40px;
+    	padding-bottom: 40px;
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    #ktheme-footer{
+		height: 92vh;
+	}
+	.ktheme-button-1, .ktheme-button-2, .ktheme-button-3, .ktheme-button-4, .ktheme-button-5, .ktheme-button-6{
+		font-size: 15px;
+	}
+	#ktheme-navbar{
+		font-size: 17px;
+	}
+	#ktheme-navbar .navbar-brand{
+		font-size: 20px;
+	}
+	.ktheme-card-columns-1{
+		column-count: 1;
+	}
+	.ktheme-card-columns-2{
+		column-count: 1;
+	}
+	.ktheme-card-columns-3{
+		column-count: 1;
+	}
+	.ktheme-card-columns-3 .card{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form-control::placeholder{
+		font-size: 13px;
+	}
+}
+@media (min-width: 576px){
+	#ktheme-body{
+		font-size: 16px;
+	}
+    .ktheme-padding{
+    	padding-top: 90px;
+    	padding-bottom: 90px;
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    #ktheme-body h2{
+		font-size: 60px;
+	}
+	#ktheme-body h4{
+		font-size: 30px;
+	}
+	#ktheme-body h5{
+		font-size: 26px;
+	}
+	#ktheme-body h6{
+		font-size: 20px;
+	}
+	.ktheme-service-4{
+		width: 100vw;
+		height: 35vh;
+	}
+	#team .ktheme-team-3{
+		width: 100%;
+		height: auto;
+	}
+	.ktheme-pricing-4{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#reviews .ktheme-review-1{
+		width: 35%;
+		height: 35%;
+	}
+	.ktheme-contact-2{
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    .ktheme-contact-3{
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    #ktheme-footer{
+		height: 131vh;
+	}
+	.ktheme-button-1, .ktheme-button-2, .ktheme-button-3, .ktheme-button-4, .ktheme-button-5, .ktheme-button-6{
+		font-size: 18px;
+	}
+	#ktheme-navbar{
+		font-size: 18px;
+	}
+	#ktheme-navbar .navbar-brand{
+		font-size: 21px;
+	}
+	.ktheme-card-columns-1{
+		column-count: 1;
+	}
+	.ktheme-card-columns-2{
+		column-count: 1;
+	}
+	.ktheme-card-columns-3{
+		column-count: 1;
+	}
+	.ktheme-card-columns-3 .card{
+		width: 70%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form-control::placeholder{
+		font-size: 14px;
+	}
+}
+@media (min-width: 768px){
+	#ktheme-body{
+		font-size: 15px;
+	}
+    .ktheme-padding{
+    	padding-top: 90px;
+    	padding-bottom: 90px;
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    #ktheme-body h2{
+		font-size: 45px;
+	}
+	#ktheme-body h4{
+		font-size: 24px;
+	}
+	#ktheme-body h5{
+		font-size: 22px;
+	}
+	#ktheme-body h6{
+		font-size: 17px;
+	}
+	.ktheme-service-4{
+		width: 100vw;
+		height: 25vh;
+	}
+	#team .ktheme-team-3{
+		width: 70%;
+		height: 20%;
+	}
+	.ktheme-pricing-4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#reviews .ktheme-review-1{
+		width: 35%;
+		height: 35%;
+	}
+	.ktheme-contact-2{
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    .ktheme-contact-3{
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    #ktheme-footer{
+		height: 55vh;
+	}
+	.ktheme-button-1, .ktheme-button-2, .ktheme-button-3, .ktheme-button-4, .ktheme-button-5, .ktheme-button-6{
+		font-size: 16px;
+	}
+	#ktheme-navbar{
+		font-size: 17px;
+	}
+	#ktheme-navbar .navbar-brand{
+		font-size: 20px;
+	}
+	.ktheme-card-columns-1{
+		column-count: 1;
+	}
+	.ktheme-card-columns-2{
+		column-count: 3;
+	}
+	.ktheme-card-columns-3{
+		column-count: 1;
+	}
+	.ktheme-card-columns-3 .card{
+		width: 40%;
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+	.form-control::placeholder{
+		font-size: 13px;
+	}
+}
+@media (min-width: 992px){
+	#ktheme-body{
+		font-size: 15px;
+	}
+    .ktheme-padding{
+    	padding-top: 90px;
+    	padding-bottom: 90px;
+    	padding-left: 40px;
+    	padding-right: 40px;
+    }
+    #ktheme-body h2{
+		font-size: 55px;
+	}
+	#ktheme-body h4{
+		font-size: 28px;
+	}
+	#ktheme-body h5{
+		font-size: 24px;
+	}
+	#ktheme-body h6{
+		font-size: 17px;
+	}
+	.ktheme-service-4{
+		width: 100vw;
+		height: 30vh;
+	}
+	#team .ktheme-team-3{
+		width: 100%;
+		height: auto;
+	}
+	.ktheme-pricing-4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#reviews .ktheme-review-1{
+		width: 30%;
+		height: 30%;
+	}
+	.ktheme-contact-2{
+    	padding-left: 40px;
+    	padding-right: 40px;
+    }
+    .ktheme-contact-3{
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	padding-left: 40px;
+    	padding-right: 40px;
+    }
+    #ktheme-footer{
+		height: 65vh;
+	}
+	.ktheme-button-1, .ktheme-button-2, .ktheme-button-3, .ktheme-button-4, .ktheme-button-5, .ktheme-button-6{
+		font-size: 17px;
+	}
+	#ktheme-navbar{
+		font-size: 17px;
+	}
+	#ktheme-navbar .navbar-brand{
+		font-size: 21px;
+	}
+	.ktheme-card-columns-1{
+		column-count: 3;
+	}
+	.ktheme-card-columns-2{
+		column-count: 3;
+	}
+	.ktheme-card-columns-3{
+		column-count: 3;
+	}
+	.ktheme-card-columns-3 .card{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form-control::placeholder{
+		font-size: 13px;
+	}
+}
+@media (min-width: 1200px){
+	#ktheme-body{
+		font-size: 16px;
+	}
+    .ktheme-padding{
+    	padding-top: 90px;
+    	padding-bottom: 90px;
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    #ktheme-body h2{
+		font-size: 70px;
+	}
+	#ktheme-body h4{
+		font-size: 36px;
+	}
+	#ktheme-body h5{
+		font-size: 28px;
+	}
+	#ktheme-body h6{
+		font-size: 21px;
+	}
+	.ktheme-service-4{
+		width: 100vw;
+		height: 35vh;
+	}
+	#team .ktheme-team-3{
+		width: 100%;
+		height: auto;
+	}
+	.ktheme-pricing-4{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	#reviews .ktheme-review-1{
+		width: 25%;
+		height: 25%;
+	}
+	.ktheme-contact-2{
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    .ktheme-contact-3{
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    #ktheme-footer{
+		height: 80vh;
+	}
+	.ktheme-button-1, .ktheme-button-2, .ktheme-button-3, .ktheme-button-4, .ktheme-button-5, .ktheme-button-6{
+		font-size: 20px;
+	}
+	#ktheme-navbar{
+		font-size: 19px;
+	}
+	#ktheme-navbar .navbar-brand{
+		font-size: 23px;
+	}
+	.ktheme-card-columns-1{
+		column-count: 3;
+	}
+	.ktheme-card-columns-2{
+		column-count: 3;
+	}
+	.ktheme-card-columns-3{
+		column-count: 3;
+	}
+	.ktheme-card-columns-3 .card{
+		width: 85%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form-control::placeholder{
+		font-size: 14px;
+	}
+}
+/* END OF MEDIA */
+/* VIDEO */
+.kthemeD6-video-1{
+	position: relative;
+	color: #FBFBFF;
+	background-image: url("../images/video.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+.kthemeD6-video-2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 60px;
+	padding-right: 0;
+}
+/* END OF VIDEO */
+/* INDEX */
+.kthemeIndex-1{
+    height: 100vh;
+    position: relative;
+	color: #FBFBFF;
+	background-image: url("../images/index-1.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+.kthemeIndex-2{
+	position: absolute;
+	top: 50%;
+    left: 60%;
+}
+.kthemeIndex-3{
+    height: 100vh;
+    position: relative;
+	color: #FBFBFF;
+	background-image: url("../images/index-2.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+.kthemeIndex-4{
+	position: absolute;
+	top: 45%;
+    left: 26%;
+}
+/* END OF INDEX */
+/* DOCUMENTATION */
+.kthemeDoc-color-1{
+    color: #172A3A;
+    font-weight: bold;
+}
+.kthemeDoc-color-2{
+    color: #004346;
+    font-weight: bold;
+}
+.kthemeDoc-scroll{
+	position: relative;
+	height: 100vh;
+	overflow-y: scroll;
+}
+#ktheme-body pre{
+	font-family: 'Quicksand', sans-serif;
+	color: #580C1F;
+	font-weight: bolder;
+}
+/* END OF DOCUMENTATION */
+/* END OF CUSTOM CSS */
